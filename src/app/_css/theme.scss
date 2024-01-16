@@ -115,6 +115,11 @@
       }
     }
   }
+
+  .logo-color,
+  .icon-color {
+    filter: brightness(0%);
+  }
 }
 
 [data-theme=dark] {
@@ -234,4 +239,11 @@
       }
     }
   }
+
+  .logo-color,
+  .icon-color {
+    filter: brightness(0) invert(1);
+  }
+
+  
 }
