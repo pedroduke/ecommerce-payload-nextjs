@@ -23,7 +23,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
       <footer className={noHeaderFooterUrls.includes(pathname) ? classes.hide : ''}>
         <Gutter>
           <ul className={classes.inclusions}>
-            {/* <ThemeSelector /> */}
+            <ThemeSelector />
             {inclusions.map(inclusion => (
               <li key={inclusion.title}>
                 <Image
@@ -45,7 +45,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
               <Link href="/">
                 <Image
                   className={classes.footerColor}
-                  src="/logo-black.svg"
+                  src="/logo.svg"
                   alt="logo"
                   width={170}
                   height={50}

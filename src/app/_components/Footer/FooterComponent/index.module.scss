@@ -10,6 +10,18 @@
   }
 }
 
+:global([data-theme='dark']) {
+  .footerColor {
+    filter: brightness(0%);
+  }
+}
+
+:global([data-theme='light']) {
+  .footerColor {
+    filter: brightness(0) invert(1);
+  }
+}
+
 .inclusions {
   display: grid;
   justify-content: center;
@@ -33,18 +45,6 @@
 
 .icon {
   margin-bottom: 16;
-}
-
-:global([data-theme='dark']) {
-  .footerColor {
-    filter: brightness(0%);
-  }
-}
-
-:global([data-theme='light']) {
-  .footerColor {
-    filter: brightness(0) invert(1);
-  }
 }
 
 .wrap {

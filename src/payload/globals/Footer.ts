@@ -1,7 +1,6 @@
 import type { GlobalConfig } from 'payload/types'
 
 import link from '../fields/link'
-// test
 
 export const Footer: GlobalConfig = {
   slug: 'footer',

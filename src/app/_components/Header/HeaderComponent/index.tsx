@@ -25,7 +25,7 @@ const HeaderComponent = ({ header }: { header: Header }) => {
         <Link href="/">
           <Image
             className={`logo-color ${classes.logo}`}
-            src="/logo-white.svg"
+            src="/logo.svg"
             alt="logo"
             width={170}
             height={50}
